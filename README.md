@@ -17,20 +17,6 @@ to infer structural-functional properties of space, such as:
 The goal is to experimentally characterize the limits of geometry-only
 functional inference.
 
-## Summary of Preliminary Results
-
-Experiments on 18 Replica scenes show:
-
-- Obstruction inference is structurally consistent
-- Walkable-surface inference captures horizontal-low regions,
-  but does not directly align with semantic floor labels
-- Support inference remains structurally ambiguous
-
-These findings support the hypothesis that geometry provides a
-basal structural-functional layer, but is insufficient for
-context-dependent affordances.
-
-
 ## Research Goal
 
 Investigate the extent to which explicit 3D geometry alone is sufficient to infer structural-functional properties of indoor environments.
@@ -49,6 +35,19 @@ This work evaluates what can be inferred from geometry alone.
 2. Parameter sweep
 3. Ablation studies
 4. Proxy semantic evaluation
+
+## Summary of Preliminary Results
+
+Experiments on 18 Replica scenes show:
+
+- Obstruction inference is structurally consistent
+- Walkable-surface inference captures horizontal-low regions,
+  but does not directly align with semantic floor labels
+- Support inference remains structurally ambiguous
+
+These findings support the hypothesis that geometry provides a
+basal structural-functional layer, but is insufficient for
+context-dependent affordances.
 
 ## Dataset
 
