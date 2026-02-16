@@ -67,3 +67,8 @@ python -m scripts.run_batch
 Run evaluation:
 python -m scripts.eval_proxy_semantic_faces_conn
 
+## License
+
+This project is licensed under the Apache License 2.0.
+
+
