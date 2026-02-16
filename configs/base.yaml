@@ -1,0 +1,16 @@
+data_root: "data/replica"
+
+sample_points: 200000
+voxel_size: 0.03
+knn_normals: 30
+
+tau_theta: 0.92
+tau_walk_max: 0.10
+tau_support_min: 0.35
+tau_support_max: 0.90
+
+# continuidade opcional (pode ficar desligada no início)
+use_continuity: false
+dbscan_eps: 0.08
+dbscan_min_points: 40
+min_walk_cluster_size: 2000
